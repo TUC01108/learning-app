@@ -17,11 +17,10 @@ public class LearnMaven {
 		
 		System.out.println("What is the Maven lifecycle?");
 		answer = scanner.nextLine();
-		System.out.println("process resources - copy and process the resources into destination directory "
-				+ "/ compile - compile the source code / process-test-resources - same for test directory / test-compile - compile the test code "
-				+ "/ test - run the test code / \r\n"
-				+ "package - combine compiled source code into a .jar or .war file / install - install package to local repo / deploy - copy package "
-				+ "and install in remote repo");
+		System.out.println("1. Process Resources - copy and process the resources into destination directory. 2. Compile - compile the source code. \n"
+				+ "3. Process-Test-Resources - same for test directory. 4. Test-Compile - compile the test code. 5. Test - run the test code. \n"
+				+ "6. Package - combine compiled source code into a .jar or .war file. 7. Install - install package to local repo. \n"
+				+ "8. Deploy - copy package and install in remote repo.");
 		System.out.println();
 		answer = null;
 		

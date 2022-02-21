@@ -17,7 +17,7 @@ public class LearnCollections {
 		
 		System.out.println("What are the interfaces in the Collections API?");
 		answer = scanner.nextLine();
-		System.out.println("Iterable, Collection, List, Queue, Set, Map, SortedSet, SortedMap");
+		System.out.println("Iterator, Collection, List, Queue, Set, Map, SortedSet, SortedMap");
 		System.out.println();
 		answer = null;
 		
@@ -27,7 +27,7 @@ public class LearnCollections {
 		System.out.println();
 		answer = null;
 		
-		System.out.println("What is the difference between a `Array` and an `ArrayList`?");
+		System.out.println("What is the difference between an `Array` and an `ArrayList`?");
 		answer = scanner.nextLine();
 		System.out.println("An array is static and its size cannot be changed, but an ArrayList can grow/shrink.");
 		System.out.println();
@@ -64,12 +64,6 @@ public class LearnCollections {
 		System.out.println();
 		answer = null;
 		
-		System.out.println("What does a List extend and what must they contain?");
-		answer = scanner.nextLine();
-		System.out.println("It extends Collection to handle sets, which must contain unique elements.");
-		System.out.println();
-		answer = null;
-		
 		System.out.println("A ______ comprises a sequence of nodes with each node containing a reference to its "
 				+ "successor and can be used to implement Stacks and Queues.");
 		answer = scanner.nextLine();
@@ -103,20 +97,20 @@ public class LearnCollections {
 		
 		System.out.println("What do collections only accept?");
 		answer = scanner.nextLine();
-		System.out.println("objects");
+		System.out.println("Objects");
 		System.out.println();
 		answer = null;
 		
 		System.out.println("What does the comparator interface declare?");
 		answer = scanner.nextLine();
-		System.out.println("It declares the compare(o1,o2) method. It's a functional interface, it only has that "
+		System.out.println("It declares the method compare. It's a functional interface, it only has that "
 				+ "method and it's used to define an order different than the natural one.");
 		System.out.println();
 		answer = null;
 		
 		System.out.println("What classes are Iterable?");
 		answer = scanner.nextLine();
-		System.out.println("HashSet, LinkedList, ArrayDeque, TreeSet");
+		System.out.println("HashSet, ArrayDeque, LinkedList, TreeSet");
 		System.out.println();
 		answer = null;
 		
@@ -145,7 +139,7 @@ public class LearnCollections {
 		answer = null;
 		
 		System.out.println("A _____ is comprised of a set of vertices and a set of edges. Each edge represents a "
-				+ "connection between two vertices. Two vertices are neighbors if they are connected by an edge, and "
+				+ "connection between two vertices. Two vertices are neighbors if they are connected \nby an edge, and "
 				+ "the degree of a vertex is its number of neighbors.");
 		answer = scanner.nextLine();
 		System.out.println("Graph");
@@ -153,7 +147,7 @@ public class LearnCollections {
 		answer = null;
 		
 		System.out.println("A ______ is a binary tree that contains a key–value pair in each node and for which "
-				+ "the keys are in symmetric order\\: The key in a node is larger than the key of every node in its "
+				+ "the keys are in symmetric order\\: The key in a node is larger than the key of every\n node in its "
 				+ "left subtree and smaller than the key of every node in its right subtree.");
 		answer = scanner.nextLine();
 		System.out.println("Binary search tree");
@@ -161,7 +155,7 @@ public class LearnCollections {
 		answer = null;
 		
 		System.out.println("A _______ is a data structure in which we use a hash function to divide the keys into m groups, "
-				+ "which we expect to be able equal in size. For each group, we keep the keys in an unordered linked list and use sequential search.");
+				+ "which we expect to be able equal in size. For each group, we keep the keys in an\n unordered linked list and use sequential search.");
 		answer = scanner.nextLine();
 		System.out.println("Hashtable");
 		System.out.println();
@@ -170,7 +164,7 @@ public class LearnCollections {
 		System.out.println("What does HashMap do?");
 		answer = scanner.nextLine();
 		System.out.println("HashMap in Java will resolve collisons by checking the hashcode first, then iterating over all elements with that "
-				+ "hashcode using the equals method and generating a new entry if none of the elements are equal.");
+				+ "hashcode using the equals method and generating\n a new entry if none of the elements are equal.");
 		System.out.println();
 		answer = null;
 		
@@ -195,7 +189,7 @@ public class LearnCollections {
 		answer = null;
 		
 		System.out.println("______ is an array-backed collection that acts as a \"bounded buffer\", in which a "
-				+ "fixed-sized array holds elements inserted by producer threads and extracted by consumer threads. "
+				+ "fixed-sized array holds elements inserted by producer threads and extracted by consumer threads.\n "
 				+ "Attempts to put an element into a full queue will result in the operation blocking; attempts to take an "
 				+ "element from an empty queue will similarly block.");
 		answer = scanner.nextLine();

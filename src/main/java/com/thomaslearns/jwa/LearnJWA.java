@@ -37,8 +37,6 @@ public class LearnJWA {
 		System.out.println("13. Maven");
 		System.out.println("14. SQL");
 		System.out.println("");
-		System.out.println("");
-		System.out.println("");
 		System.out.println("---- Week 2 and 3 is above ----");
 		System.out.println("");
 		
