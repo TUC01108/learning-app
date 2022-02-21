@@ -175,12 +175,6 @@ public class LearnCollections {
 		System.out.println();
 		answer = null;
 		
-		System.out.println("What is the difference between a Hashtable and HashMap?");
-		answer = scanner.nextLine();
-		System.out.println("A Hashtable is synchronized and does not accept null keys or values.");
-		System.out.println();
-		answer = null;
-		
 		System.out.println("______ is a resizable array implementation of Deque that is likely to be "
 				+ "faster than Stack when used as a stack, and faster than LinkedList when used as a queue.");
 		answer = scanner.nextLine();
