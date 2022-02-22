@@ -19,17 +19,47 @@ public class LearnJWA {
 	public void jwaWorld() {
 		
 		System.out.println("Welcome to Java with Automation World");
-		System.out.println("You are going to have so much fun!!!\n");
+		System.out.println("You are going to learn a lot!\n");
 		
 		System.out.println("Please select from the following areas-");
+		System.out.println("**** JAVA/FUNDAMENTALS ****");
+		System.out.println("0. JAVA");
+		System.out.println("1. HTML");
+		System.out.println("2. HTTP");
+		System.out.println("---- Week 1 is above ----");
+		System.out.println("**** JAVA ****");
+		System.out.println("10. JAVA");
+		System.out.println("11. OOP CONCEPTS");
+		System.out.println("12. UNIT TESTING");
+		System.out.println("13. COLLECTIONS");
+		System.out.println("14. MULTI-THREADING");
+		System.out.println("---- Week 2 is above ----");
+		System.out.println("**** JAVALIN/SQL ****");
+		System.out.println("20. SQL SUBLANGUAGES");
+		System.out.println("21. NORMALIZATION");
+		System.out.println("22. JOINS");
+		System.out.println("23. JDBC");
+		System.out.println("24. DAO DESIGN PATTERN");
+		System.out.println("25. JAVALIN");
+		System.out.println("26. MOCKITO");
+		System.out.println("---- Week 3 is above ----");
+		System.out.println("**** CLIENT SIDE TECHNOLOGIES ****");
+		System.out.println("30. HTML");
+		System.out.println("31. CSS");
+		System.out.println("32. JAVASCRIPT");
+		System.out.println("33. JASMINE");
+		System.out.println("---- Week 4 is above ----");
+		
 		System.out.println("0. The Data Types");
-		System.out.println("1. The Langs / java.lang");
-		System.out.println("2. Fun Da Mentals Warehouse / java fundamentals");
-		System.out.println("3. Runtime track meet");
-		System.out.println("4. Memory Block");
-		System.out.println("5. Nam'ers / Non-access Modifiers");
-		System.out.println("6. GIT");
-		System.out.println("");
+		System.out.println("1. Classes & Objects");
+		System.out.println("2. Interfaces");
+		System.out.println("3. OOP");
+		System.out.println("4. Variables");
+		System.out.println("5. Operators");
+		System.out.println("6. Fundamentals");
+		System.out.println("7. GIT");
+		System.out.println("8. HTML");
+		System.out.println("The Langs / java.lang, Memory Block, Runtime, Java Fundamentals, Nam'ers / Non-access Modifiers, GIT");
 		System.out.println("---- Week 1 is above ----");
 		System.out.println("10. JUnit");
 		System.out.println("11. Collections");
